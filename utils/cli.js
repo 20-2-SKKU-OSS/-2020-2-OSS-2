@@ -22,13 +22,13 @@ module.exports = meow(
 	  ${yellow(`-j`)}, ${yellow(`--json`)}      Output JSON only data
 
 	Examples
-	  ${green(`corona`)} ${cyan(`china`)}
-	  ${green(`corona`)} ${cyan(`states`)}
-	  ${green(`corona`)} ${yellow(`--bar`)}
-	  ${green(`corona`)} ${cyan(`china`)} ${yellow(`--chart`)}
-	  ${green(`corona`)} ${cyan(`china`)} ${yellow(`--chart`)} ${yellow(`--log`)}
-	  ${green(`corona`)} ${yellow(`--sort`)} ${cyan(`cases-today`)}
-	  ${green(`corona`)} ${yellow(`-s`)} ${cyan(`critical`)}
+	  ${green(`corona`)} ${cyan(`china`)}                                          Print data of china
+	  ${green(`corona`)} ${cyan(`states`)}                                         Print data of all states
+	  ${green(`corona`)} ${yellow(`--bar`)}                                        Print stats in bar chart
+	  ${green(`corona`)} ${cyan(`china`)} ${yellow(`--chart`)}                     Print chart for china
+	  ${green(`corona`)} ${cyan(`china`)} ${yellow(`--chart`)} ${yellow(`--log`)}  Print logarithmic chart for china
+	  ${green(`corona`)} ${yellow(`--sort`)} ${cyan(`cases-today`)}                Print sorted data by cases-today type
+	  ${green(`corona`)} ${yellow(`-s`)} ${cyan(`critical`)}                       Print sorted data by critical data type
 
 	❯ You can also run command + option at once:
 	  ${green(`corona`)} ${cyan(`china`)} ${yellow(`-x`)} ${yellow(`-s cases`)}
